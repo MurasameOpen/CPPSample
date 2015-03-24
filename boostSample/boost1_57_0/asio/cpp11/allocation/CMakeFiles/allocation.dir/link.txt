@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/allocation.dir/server.cpp.o  -o bin/allocation  /usr/local/lib/libboost_system.a 

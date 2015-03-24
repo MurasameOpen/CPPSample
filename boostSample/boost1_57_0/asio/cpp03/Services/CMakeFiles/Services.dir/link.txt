@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++03 -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/Services.dir/daytime_client.cpp.o CMakeFiles/Services.dir/logger_service.cpp.o  -o bin/Services  /usr/local/lib/libboost_system.a /usr/local/lib/libboost_thread.a 

@@ -50,44 +50,44 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp03/Services
+CMAKE_SOURCE_DIR = /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp11/allocation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp03/services
+CMAKE_BINARY_DIR = /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp11/allocation
 
 #=============================================================================
-# Target rules for target CMakeFiles/Services.dir
+# Target rules for target CMakeFiles/allocation.dir
 
 # All Build rule for target.
-CMakeFiles/Services.dir/all:
-	$(MAKE) -f CMakeFiles/Services.dir/build.make CMakeFiles/Services.dir/depend
-	$(MAKE) -f CMakeFiles/Services.dir/build.make CMakeFiles/Services.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp03/services/CMakeFiles  1 2
-	@echo "Built target Services"
-.PHONY : CMakeFiles/Services.dir/all
+CMakeFiles/allocation.dir/all:
+	$(MAKE) -f CMakeFiles/allocation.dir/build.make CMakeFiles/allocation.dir/depend
+	$(MAKE) -f CMakeFiles/allocation.dir/build.make CMakeFiles/allocation.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp11/allocation/CMakeFiles  1
+	@echo "Built target allocation"
+.PHONY : CMakeFiles/allocation.dir/all
 
 # Include target in all.
-all: CMakeFiles/Services.dir/all
+all: CMakeFiles/allocation.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Services.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp03/services/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Services.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp03/services/CMakeFiles 0
-.PHONY : CMakeFiles/Services.dir/rule
+CMakeFiles/allocation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp11/allocation/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/allocation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/miyatake_y/Work1/Git/Github/murasameOpen/CPPSample/boostSample/boost1_57_0/asio/cpp11/allocation/CMakeFiles 0
+.PHONY : CMakeFiles/allocation.dir/rule
 
 # Convenience name for target.
-Services: CMakeFiles/Services.dir/rule
-.PHONY : Services
+allocation: CMakeFiles/allocation.dir/rule
+.PHONY : allocation
 
 # clean rule for target.
-CMakeFiles/Services.dir/clean:
-	$(MAKE) -f CMakeFiles/Services.dir/build.make CMakeFiles/Services.dir/clean
-.PHONY : CMakeFiles/Services.dir/clean
+CMakeFiles/allocation.dir/clean:
+	$(MAKE) -f CMakeFiles/allocation.dir/build.make CMakeFiles/allocation.dir/clean
+.PHONY : CMakeFiles/allocation.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/Services.dir/clean
+clean: CMakeFiles/allocation.dir/clean
 .PHONY : clean
 
 #=============================================================================
